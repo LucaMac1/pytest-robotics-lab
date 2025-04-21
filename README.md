@@ -31,8 +31,7 @@ This project demonstrates how to use **pytest** to write tests for robotics syst
    ```bash
    pytest tests/unit
    pytest -m integration
-   pytest -m simulation
-   pytest -m hardware
+   pytest -m bdd
    ```
 
 5. **Configure CI/CD (Optional)**  
@@ -42,8 +41,7 @@ This project demonstrates how to use **pytest** to write tests for robotics syst
 
 - **Unit tests**: Test individual components like logic or functions.
 - **Integration tests**: Test how components interact.
-- **Simulation tests**: Test robot behaviour in a simulated environment.
-- **Hardware tests**: Test interactions with real robots or hardware.
+- **System tests**: Test robot behaviour in environments.
 
 ## Project Structure
 
